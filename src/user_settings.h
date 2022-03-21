@@ -1,8 +1,8 @@
 //------------------------------------------------
 // WiFi Configuration
-const char* ssid            = "AreaBlue";
-const char* password        = "8998968153047257";
-const char* wifihostname    = "ESP-Klingel";
+const char* ssid            = "WIFI-SID";
+const char* password        = "WIFI-PWD";
+const char* wifihostname    = "ESP-Doorbell";
 
 // Network Configuration
 const char *local_IP        = "192.168.178.220";  // use static IP for performance reasons
