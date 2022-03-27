@@ -132,8 +132,8 @@ void loop(void)
     Serial.println("+++");
   }
 
-  // wait 5 seconds until deep sleep to wait for SIP session to finish
-  if (millisWhenFinished && (millis() - millisWhenFinished) > 5000)
+  // wait for deep sleep until ringing stops and SIP session finishes
+  if (millisWhenFinished && (millis() - millisWhenFinished) > ringSeconds * 1000)
   {
     Serial.println(String(millis()) + " - Going to sleep. Zzz.");
     Serial.println("+++");

@@ -18,7 +18,7 @@ int         sipport         = 5060;             // default: 5060
 // SIP Dial Configuration
 const char *sipdialnr       = "**9";            // Broadcast: **9  
 const char *sipdialtext     = "DOOR RINGING";	// Text displayed
-int         ringSeconds     = 6;                // seconds to ring phone
+int         ringSeconds     = 8;                  // seconds to ring phone
 
 // MQTT Configuration
 const char *mqttDeviceName  = "Doorbell";       // Can be changed, but avoid spaces or special characters!
